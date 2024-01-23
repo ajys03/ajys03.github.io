@@ -49,15 +49,144 @@ nav a:hover {
     margin: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .section {
     flex: 1;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
 }
 
 .section img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
+}
+
+.section p {
+    margin: 0;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+
+.schools {
+    max-width: 400px; /* Set a maximum width for each school */
+    margin: 20px; /* Add margin for spacing between schools */
+    padding: 15px; /* Add padding for spacing within each school */
+    background-color: white; /* White background for each school */
+    border-radius: 10px; /* Rounded corners for each school */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.schools ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.schools li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+.school-image {
+    max-width: 100%;
+    max-height: 150px; /* Set the maximum height for school images */
+    border-radius: 8px;
+    margin-top: 10px; /* Add margin for spacing between image and text */
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.job {
+    max-width: 600px; /* Set a maximum width for each job */
+    margin: 20px; /* Add margin for spacing between jobs */
+    padding: 15px; /* Add padding for spacing within each job */
+    background-color: white; /* White background for each job */
+    border-radius: 10px; /* Rounded corners for each job */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.job h3 {
+    color: #333; /* Color for the job title */
+}
+
+.job p {
+    color: #666; /* Color for the job details */
+    margin-bottom: 10px; /* Add margin below the job details for spacing */
+}
+
+.job ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.job li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+
+.contact-section p {
+    color: #666; /* Color for the paragraph text */
+    margin-bottom: 5px; /* Add margin below the paragraph for spacing */
+}
+
+.contact-section ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+.contact-section li {
+    margin-bottom: 5px; /* Add margin between list items */
+}
+
+.contact-section a {
+    color: #0077cc; /* Color for link text */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.contact-section a:hover {
+    text-decoration: underline; /* Add underline on hover for better user feedback */
+}
+
+#education {
+    background-color: #f8f8f8; /* Light background color for the education section */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center text within the container */
+}
+
+#education h2 {
+    color: #333; /* Color for the heading */
+    margin-bottom: 20px; /* Add margin below the heading for spacing */
+}
+
+#experience {
+    background-color: #f8f8f8; /* Light background color for the experience section */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center text within the container */
+}
+
+#experience h2 {
+    color: #333; /* Color for the heading */
+    margin-bottom: 20px; /* Add margin below the heading for spacing */
+}
+
+#contact {
+    background-color: #f8f8f8; /* Light background color for the contact section */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center text within the container */
+}
+
+#contact h2 {
+    color: #333; /* Color for the heading */
+    margin-bottom: 10px; /* Add margin below the heading for spacing */
 }
