@@ -42,15 +42,15 @@ nav a:hover {
 }
 
 .sub-div {
-    flex: 1; /* Distribute space equally between the two sub-divs */
+    flex: 1; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .section {
@@ -58,7 +58,7 @@ nav a:hover {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center; 
 }
 
 .section img {
@@ -73,120 +73,134 @@ nav a:hover {
 
 .sub-section {
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center;
 }
 
 .schools {
-    max-width: 400px; /* Set a maximum width for each school */
-    margin: 20px; /* Add margin for spacing between schools */
-    padding: 15px; /* Add padding for spacing within each school */
-    background-color: white; /* White background for each school */
-    border-radius: 10px; /* Rounded corners for each school */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    max-width: 400px; 
+    margin: 20px; 
+    padding: 15px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .schools ul {
-    list-style: none; /* Remove default list styles */
+    list-style: none;
     padding: 0;
 }
 
 .schools li {
-    margin-bottom: 10px; /* Add margin between list items */
+    margin-bottom: 10px;
 }
 
 .school-image {
     max-width: 100%;
-    max-height: 150px; /* Set the maximum height for school images */
+    max-height: 150px;
     border-radius: 8px;
-    margin-top: 10px; /* Add margin for spacing between image and text */
+    margin-top: 10px;
 }
 
 .section {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center;
 }
 
-.job {
-    max-width: 600px; /* Set a maximum width for each job */
-    margin: 20px; /* Add margin for spacing between jobs */
-    padding: 15px; /* Add padding for spacing within each job */
-    background-color: white; /* White background for each job */
-    border-radius: 10px; /* Rounded corners for each job */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+.item {
+    max-width: 600px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.job h3 {
-    color: #333; /* Color for the job title */
+.item h3 {
+    color: #333;
 }
 
-.job p {
-    color: #666; /* Color for the job details */
-    margin-bottom: 10px; /* Add margin below the job details for spacing */
+.item p {
+    color: #666;
+    margin-bottom: 10px;
 }
 
-.job ul {
-    list-style: none; /* Remove default list styles */
+.item ul {
+    list-style: none;
     padding: 0;
 }
 
-.job li {
-    margin-bottom: 8px; /* Add margin between list items */
+.item li {
+    margin-bottom: 8px;
 }
 
 .contact-section p {
-    color: #666; /* Color for the paragraph text */
-    margin-bottom: 5px; /* Add margin below the paragraph for spacing */
+    color: #666;
+    margin-bottom: 5px;
 }
 
 .contact-section ul {
-    list-style: none; /* Remove default list styles */
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .contact-section li {
-    margin-bottom: 5px; /* Add margin between list items */
+    margin-bottom: 5px; 
 }
 
 .contact-section a {
-    color: #0077cc; /* Color for link text */
-    text-decoration: none; /* Remove underlines from links */
+    color: #0077cc;
+    text-decoration: none;
 }
 
 .contact-section a:hover {
-    text-decoration: underline; /* Add underline on hover for better user feedback */
+    text-decoration: underline;
+}
+
+#home h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 #education {
-    background-color: #f8f8f8; /* Light background color for the education section */
-    padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center text within the container */
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
 }
 
 #education h2 {
-    color: #333; /* Color for the heading */
-    margin-bottom: 20px; /* Add margin below the heading for spacing */
+    color: #333;
+    margin: 0; 
 }
 
 #experience {
-    background-color: #f8f8f8; /* Light background color for the experience section */
-    padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center text within the container */
+    padding: 20px; 
+    text-align: center; 
 }
 
 #experience h2 {
-    color: #333; /* Color for the heading */
-    margin-bottom: 20px; /* Add margin below the heading for spacing */
+    color: #333; 
+    margin: 0;
+}
+
+#projects {
+    padding: 20px; 
+    text-align: center; 
+}
+
+#projects h2 {
+    color: #333; 
+    margin-bottom: 20px; 
 }
 
 #contact {
-    background-color: #f8f8f8; /* Light background color for the contact section */
-    padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center text within the container */
+    background-color: #f8f8f8; 
+    padding: 20px;
+    text-align: center;
 }
 
 #contact h2 {
-    color: #333; /* Color for the heading */
-    margin-bottom: 10px; /* Add margin below the heading for spacing */
+    color: #333;
+    margin-bottom: 10px;
 }
